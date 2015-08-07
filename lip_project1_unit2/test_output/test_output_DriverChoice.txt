@@ -1,0 +1,7 @@
+Base price is : 18445.0
+Option : Fort Knox Gold Clearcoat MetallicPrice : 0.0
+Option : StandardPrice : -815.0
+Option : ABSPrice : 400.0
+Option : SelectedPrice : 350.0
+Option : SelectedPrice : 0.0
+Total price : 18380.0
