@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_weight="1"
+    android:background="#fff">
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TableRow android:id="@+id/nameTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView android:id="@+id/friend_nameLabelTextView"
+                style="@style/UserLabelTextView"
+                android:text="@string/User_NickName"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+            <TextView android:id="@+id/friend_nameTextView"
+                style="@style/UserTextView"
+                android:textSize="21sp"
+                android:textColor="#000"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/AgeTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView android:id="@+id/friend_AgeLabelTextView"
+                style="@style/UserLabelTextView"
+                android:text="@string/User_Age"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+            <TextView android:id="@+id/friend_AgeTextView"
+                style="@style/UserTextView"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/GenderTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView android:id="@+id/friend_GenderLabelTextView"
+                style="@style/UserLabelTextView"
+                android:text="@string/User_Gender"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+            <TextView android:id="@+id/friend_GenderTextView"
+                style="@style/UserTextView"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/WeightTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView android:id="@+id/friend_WeightLabelTextView"
+                style="@style/UserLabelTextView"
+                android:text="@string/User_Weight"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+            <TextView android:id="@+id/friend_WeightTextView"
+                style="@style/UserTextView"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/HeightTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView android:id="@+id/friend_HeightLabelTextView"
+                style="@style/UserLabelTextView"
+                android:text="@string/User_Height"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+            <TextView android:id="@+id/friend_HeightTextView"
+                style="@style/UserTextView"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/CalTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="@style/UserLabelTextView"
+                android:id="@+id/friend_CalLabelTextView"
+                android:text="@string/User_Cal"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21sp" />
+
+            <TextView
+                style="@style/UserTextView"
+                android:id="@+id/friend_CalTextView"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21sp" />
+        </TableRow>
+
+        <TableRow android:id="@+id/GoalTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView android:id="@+id/friend_GoalLabelTextView"
+                style="@style/UserLabelTextView"
+                android:text="@string/User_Goal"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+            <TextView android:id="@+id/friend_GoalTextView"
+                style="@style/UserTextView"
+                android:textColor="#000"
+                android:textSize="21sp"></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/EmailTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="@style/UserLabelTextView"
+                android:id="@+id/friend_EmailLabelTextView"
+                android:text="@string/User_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <TextView
+                style="@style/UserTextView"
+                android:id="@+id/friend_EmailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="21sp" />
+        </TableRow>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FriendInfo_ButtonMessage"
+                    android:id="@+id/friend_writeMessageButton"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/button_blue"
+                    android:textColor="#fff"
+                    android:layout_gravity="left" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FriendInfo_ButtonDuel"
+                    android:id="@+id/friend_duelButton"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/button_blue"
+                    android:textColor="#fff"
+                    android:layout_gravity="right" />
+            </TableRow>
+        </TableLayout>
+
+    </TableLayout>
+</ScrollView>

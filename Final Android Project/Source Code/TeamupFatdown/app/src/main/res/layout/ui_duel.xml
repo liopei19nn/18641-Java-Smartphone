@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#fff">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:id="@+id/usernameTableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/duel_nameLabelTextView1"
+                style="@style/UserLabelTextView"
+                android:text="@string/Duel_Name"
+                android:textColor="#000"></TextView>
+
+            <TextView
+                android:id="@+id/duel_nameTextView1"
+                style="@style/UserTextView"
+                android:textColor="#000"></TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/nicknametableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/UserLabelTextView"
+                android:id="@+id/duel_nicknameLabelTextView1"
+                android:text="@string/Duel_Nickname"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/UserTextView"
+                android:id="@+id/duel_nicknameTextView1"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/DoneTableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/duel_DoneLabelTextView1"
+                style="@style/UserLabelTextView"
+                android:text="@string/Duel_Done"
+                android:textColor="#000"></TextView>
+
+            <TextView
+                android:id="@+id/duel_DoneTextView1"
+                style="@style/UserTextView"
+                android:textColor="#000"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/GoalTableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/duel_GoalLabelTextView1"
+                style="@style/UserLabelTextView"
+                android:text="@string/Duel_Goal"
+                android:textColor="#000"></TextView>
+
+            <TextView
+                android:id="@+id/duel_GoalTextView1"
+                style="@style/UserTextView"
+                android:textColor="#000"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/VSTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/VSLabelTextView"
+                style="@style/UserLabelTextView"
+                android:minHeight="30dp"
+                android:text="@string/Duel_VS"
+                android:textColor="#ffff1f0e"
+                android:textSize="50sp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/nameTableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/duel_nameLabelTextView2"
+                style="@style/UserLabelTextView"
+                android:text="@string/Duel_Name"
+                android:textColor="#000"></TextView>
+
+            <TextView
+                android:id="@+id/duel_nameTextView2"
+                style="@style/UserTextView"
+                android:text=""
+                android:textColor="#000"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/nicknameTableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/UserLabelTextView"
+                android:id="@+id/duel_nicknameLabelTextView2"
+                android:text="@string/Duel_Nickname"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/UserTextView"
+                android:id="@+id/duel_nicknameTextView2"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/DoneTableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/duel_DoneLabelTextView2"
+                style="@style/UserLabelTextView"
+                android:text="@string/Duel_Done"
+                android:textColor="#000"></TextView>
+
+            <TextView
+                android:id="@+id/duel_DoneTextView2"
+                style="@style/UserTextView"
+                android:text=""
+                android:textColor="#000"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/GoalTableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/duel_GoalLabelTextView2"
+                style="@style/UserLabelTextView"
+                android:text="@string/Duel_Goal"
+                android:textColor="#000"></TextView>
+
+            <TextView
+                android:id="@+id/duel_GoalTextView2"
+                style="@style/UserTextView"
+                android:text=""
+                android:textColor="#000"></TextView>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

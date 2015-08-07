@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Team up Fat down</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Menu</string>
+    <string name="ChooseActivity_Activity">Activity</string>
+    <string name="ChooseActivity_Duration">Duration (min)</string>
+    <string name="activity_title">ACTIVITY</string>
+    <string name="activity_submitbutton">Submit</string>
+    <string name="EditUser_NickName">Nickname</string>
+    <string name="EditUser_Age">Age</string>
+    <string name="EditUser_Gender">Gender</string>
+    <string name="EditUser_Weight">Weight(kg)</string>
+    <string name="EditUser_Height">Height(cm)</string>
+    <string name="EditUser_Goal">Goal(kcal)</string>
+    <string name="EditUser_GoalHint">Enter your goal</string>
+    <string name="EditUser_HeightHint">140-220</string>
+    <string name="EditUser_WeightHint">30-200</string>
+    <string name="EditUser_AgeHint">10-100</string>
+    <string name="EditUser_NameHint">Nickname</string>
+    <string name="edituser_button">Save</string>
+    <string name="ChooseNutrition_Nutrition">Nutrition</string>
+    <string name="ChooseNutrition_Quantity">Quantity \n (slice/cup/oz)</string>
+    <string name="ChooseNutrition_title">NUTRITION</string>
+    <string name="User_NickName">Nickname</string>
+    <string name="User_Age">Age</string>
+    <string name="User_Gender">Gender</string>
+    <string name="User_Weight">Weight(kg)</string>
+    <string name="User_Height">Height(cm)</string>
+    <string name="User_Goal">Goal(kcal)</string>
+    <string name="User_Cal">Consumption(kcal)</string>
+    <string name="user_resetButton">Reset</string>
+    <string name="User_Email">E-mail</string>
+    <string name="user_editButton">Edit</string>
+    <string name="Duel_Goal">Goal</string>
+    <string name="Duel_Name">Username</string>
+    <string name="Duel_VS">VS</string>
+    <string name="Duel_Done">Done</string>
+    <string name="Duel_Nickname">Nickname</string>
+    <string name="login_UserName">Email</string>
+    <string name="login_loginPage">TEAM UP FAT DOWN</string>
+    <string name="login_signin">Sign in</string>
+    <string name="login_signout">Sign up</string>
+    <string name="login_passwordhint">Password</string>
+    <string name="team_title">TEAM</string>
+    <string name="menupage_menupage">TEAM UP FAT DOWN</string>
+    <string name="menupage_user">User</string>
+    <string name="menupage_activity">Activity</string>
+    <string name="menupage_nutrition">Nutrition</string>
+    <string name="menupage_team">Team</string>
+    <string name="menupage_duel">Duel</string>
+    <string name="menupage_change">Change</string>
+    <string name="registration_registration">REGISTRATION</string>
+    <string name="registration_cancel">Cancel</string>
+    <string name="registration_submit">Submit</string>
+    <string name="registration_passwordhint">four-digit number</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_user">User</string>
+    <string name="title_activity_edit_user">EditUser</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="title_activity_choose_nutrition">ChooseNutrition</string>
+    <string name="title_activity_friend">Friend</string>
+    <string name="title_activity_duel">Duel</string>
+    <string name="title_activity_team">Team</string>
+    <string name="title_activity_change">Change</string>
+    <string name="changepage_changephoto">Update</string>
+    <string name="changepage_changeslogan">CHANGE</string>
+    <string name="FriendInfo_ButtonDuel">Duel</string>
+    <string name="FriendInfo_ButtonMessage">Mail</string>
+    <string name="change_pastdate">2015/10/10</string>
+    <string name="change_currentdate">2016/10/10</string>
+    <string name="change_pastweight">0kg</string>
+    <string name="change_currentweight">0kg</string>
+    <string name="change_pastheight">0cm</string>
+    <string name="change_currentheight">0cm</string>
+    <string name="change_pastCal">0cal</string>
+    <string name="change_currentCal">0cal</string>
+    <string name="nutrition_submitButton">Submit</string>
+    <string name="mainpage_date">July 11</string>
+    <string name="mainpage_calGoal">3000</string>
+    <string name="mainpage_slogan">10% To Go</string>
+
+
+    <string-array name="ChooseActivity_Activity">
+        <item>Basketball</item>
+        <item>Baseball</item>
+        <item>Cycling</item>
+        <item>Football</item>
+        <item>Running</item>
+        <item>Swimming</item>
+        <item>Soccer</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="edituser_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="ChooseNutrition_Nutrition">
+        <item>Apple</item>
+        <item>Beef</item>
+        <item>Banana</item>
+        <item>Broccoli</item>
+        <item>Chicken</item>
+        <item>Cucumber</item>
+        <item>Egg</item>
+        <item>Fish</item>
+        <item>Milk</item>
+        <item>Tomato</item>
+    </string-array>
+
+
+</resources>

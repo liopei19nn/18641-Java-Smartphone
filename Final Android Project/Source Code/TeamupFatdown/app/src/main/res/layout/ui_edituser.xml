@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tableRow0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/EditUser_nickNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/EditUser_NickName"
+                    android:textColor="#000"
+                    android:textSize="21sp"></TextView>
+
+                <EditText
+                    android:id="@+id/edituser_nickNameEditText"
+                    android:hint="@string/EditUser_NameHint"
+                    android:textColor="#000"
+                    android:textSize="21sp"
+                    android:inputType="textNoSuggestions"></EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/EditUser_ageTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/EditUser_Age"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+                <EditText
+                    android:id="@+id/edituser_ageEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789"
+                    android:hint="@string/EditUser_AgeHint"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000"
+                    android:textSize="21sp"
+                    android:maxLength="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal">
+                >
+
+                <TextView
+                    android:id="@+id/EditUser_genderTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/EditUser_Gender"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+                <Spinner
+                    android:id="@+id/edituser_genderSpinner"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/custom_spinner"
+                    android:entries="@array/edituser_gender"
+                    android:gravity="right" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal">
+                >
+
+                <TextView
+                    android:id="@+id/EditUser_weightTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/EditUser_Weight"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+                <EditText
+                    android:id="@+id/edituser_weightEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789"
+                    android:hint="@string/EditUser_WeightHint"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000"
+                    android:textSize="21sp"
+                    android:maxLength="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal">
+                >
+
+                <TextView
+                    android:id="@+id/EditUser_heightTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/EditUser_Height"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+                <EditText
+                    android:id="@+id/edituser_heightEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789"
+                    android:hint="@string/EditUser_HeightHint"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000"
+                    android:textSize="21sp"
+                    android:maxLength="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal">
+                >
+
+                <TextView
+                    android:id="@+id/EditUser_goalTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/EditUser_Goal"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+                <EditText
+                    android:id="@+id/edituser_goalEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789"
+                    android:hint="@string/EditUser_GoalHint"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:textColor="#000"
+                    android:textIsSelectable="false"
+                    android:textSize="21sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/edituser_saveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_blue"
+                    android:text="@string/edituser_button"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

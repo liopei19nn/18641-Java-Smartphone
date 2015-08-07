@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tongyunl.teamupfatdown">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ui.Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ui.Registration"
+            android:label="@string/title_activity_registration"></activity>
+        <activity
+            android:name="ui.Mainpage"
+            android:label="@string/title_activity_main_page"></activity>
+        <activity
+            android:name="ui.Mainmenu"
+            android:label="@string/title_activity_menu"></activity>
+        <activity
+            android:name="ui.User"
+            android:label="@string/title_activity_user"></activity>
+        <activity
+            android:name="ui.EditUser"
+            android:label="@string/title_activity_edit_user"></activity>
+        <activity
+            android:name="ui.ChooseActivity"
+            android:label="@string/title_activity_choose"></activity>
+        <activity
+            android:name="ui.ChooseNutrition"
+            android:label="@string/title_activity_choose_nutrition"></activity>
+        <activity
+            android:name="ui.FriendInfo"
+            android:label="@string/title_activity_friend"></activity>
+        <activity
+            android:name="ui.Duel"
+            android:label="@string/title_activity_duel"></activity>
+        <activity
+            android:name="ui.Team"
+            android:label="@string/title_activity_team"></activity>
+        <activity
+            android:name="ui.Change"
+            android:label="@string/title_activity_change"></activity>
+        <activity
+            android:name="util.LaunchCamera"
+            android:label="Camera"></activity>
+        <service
+            android:name="service.AudioService" />
+    </application>
+</manifest>

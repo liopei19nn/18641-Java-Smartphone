@@ -1,0 +1,248 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:scrollbars="vertical"
+    android:fillViewport="false"
+    android:id="@+id/scroll_id">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/change_changesloganTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:text="@string/changepage_changeslogan"
+                android:textColor="#000"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/change_imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_margin="5dp"
+
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"
+                android:scaleType="fitXY"
+                />
+
+            <ImageView
+                android:id="@+id/change_imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_margin="5dp"
+
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:background="#ffb1d4ff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/change_leftbutton"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_blue"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:text="@string/changepage_changephoto"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:id="@+id/change_rightbutton"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_blue"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:text="@string/changepage_changephoto"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/change_dateleft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="@string/change_pastdate"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/change_dateright"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="@string/change_currentdate"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/change_weightleft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="@string/change_pastweight"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/change_weightright"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="@string/change_currentweight"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/change_heightleft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="@string/change_pastheight"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/change_heightright"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="@string/change_currentheight"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/change_goalleft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="@string/change_pastCal"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/change_goalright"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="@string/change_currentCal"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

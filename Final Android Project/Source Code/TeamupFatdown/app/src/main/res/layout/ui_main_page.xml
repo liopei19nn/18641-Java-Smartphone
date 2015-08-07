@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" android:layout_weight="1"
+    android:background="#fff"
+    android:fillViewport="false"
+    android:id="@+id/mainpage_ScorllView">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainpage_linearview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:context=".Mainpage"
+        android:paddingTop="50dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:orientation="vertical"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_weight="0.12"
+            android:layout_marginBottom="10dp">
+
+            <TableRow
+                android:id="@+id/lip_mainpage_table1_row1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mainpage_dateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="30dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/mainpage_date"
+                    android:textColor="#000"
+                    android:textSize="40sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.19"
+            android:id="@+id/mainpage_linearview2">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/lip_mainpage_table2_row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/mainpage_energyTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0dp"
+                        android:layout_span="3"
+                        android:gravity="center"
+                        android:text="@string/mainpage_calGoal"
+                        android:textColor="#ff5074ff"
+                        android:textSize="120sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/lip_mainpage_table2_row2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/mainpage_energytogoTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="3"
+                        android:gravity="center"
+                        android:text="@string/mainpage_slogan"
+                        android:textColor="#ffff193f"
+                        android:textSize="50sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+

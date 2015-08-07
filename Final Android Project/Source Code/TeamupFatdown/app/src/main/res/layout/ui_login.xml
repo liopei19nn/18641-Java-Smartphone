@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScorllView"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#ffffffff"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:id="@+id/login_RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:id="@+id/login_linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TableRow
+                android:id="@+id/login_tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/login_TextView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:text="@string/login_loginPage"
+                    android:textColor="#000"
+                    android:textSize="45dp"
+                    android:textStyle="bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/login_tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#ffffffff">
+
+
+                <EditText
+                    android:id="@+id/login_userNameEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.06"
+                    android:hint="@string/login_UserName"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="200"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp"
+                    android:textColor="#000"
+                    android:linksClickable="false"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/login_tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/login_passwordEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.06"
+                    android:digits="0123456789"
+                    android:hint="@string/login_passwordhint"
+                    android:inputType="number|textPassword"
+                    android:maxLength="4"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:layout_marginTop="50dp"
+                    android:password="true" />
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/login_tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:id="@+id/login_signupbutton"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_blue"
+                    android:maxLines="2"
+                    android:text="@string/login_signout"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/login_signinbutton"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_blue"
+                    android:maxLines="2"
+                    android:text="@string/login_signin"
+                    android:textSize="18sp"
+                    android:textColor="#fff" />
+            </TableRow>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
