@@ -1,0 +1,15 @@
+Ford
+Mustang
+23800
+Shelby
+Selected,40000;None,0
+Color
+Gold,300;Grey,0;Red,0;Green,0;Red,0;Blue,0
+Transmission
+Automatic,0;Standard,-200
+Brakes/Traction Control
+Standard,0;ABS,400;ABS with Advance Trac,1625
+Side Impact Airbags
+None,0;Selected,350
+Convertible
+None,0;Selected,2000
