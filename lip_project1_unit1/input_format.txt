@@ -1,0 +1,14 @@
+Make
+Model
+Base Price
+OptionSet Size "i"
+OptionSet0 : OptionName,OptionSize
+Option1 Price1,Option2 Price2,Option3 Price3,Option4 Price4,Option5 Price5 
+OptionSet1 : OptionName,OptionSize
+Option1 Price1,Option2 Price2,Option3 Price3,Option4 Price4,Option5 Price5  
+OptionSet2 : OptionName,OptionSize
+Option1 Price1,Option2 Price2,Option3 Price3,Option4 Price4,Option5 Price5 
+:
+:
+OptionSet"i" : OptionName,OptionSize
+Option1 Price1,Option2 Price2,Option3 Price3,Option4 Price4,Option5 Price5 

@@ -1,0 +1,143 @@
+Input a new car
+*******************************
+Focus Wagon ZTW
+Base Price :18445.00
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0.00
+Liquid Grey Clearcoat Metallic:Price 0.00
+Infra-Red Clearcoat:Price 0.00
+Grabber Green Clearcoat Metallic:Price 0.00
+Sangria Red Clearcoat Metallic:Price 0.00
+French Blue Clearcoat Metallic:Price 0.00
+Twilight Blue Clearcoat Metallic:Price 0.00
+CD Silver Clearcoat Metallic:Price 0.00
+Pitch Black Clearcoat:Price 0.00
+Cloud 9 White Clearcoat:Price 0.00
+
+Transmission:
+Automatic:Price 0.00
+Standard:Price -815.00
+
+Brakes/Traction Control:
+Standard:Price 0.00
+ABS:Price 400.00
+ABS with Advance Trac:Price 1625.00
+
+Side Impact Airbags:
+None:Price 0.00
+Selected:Price 350.00
+
+Power Moonroof:
+None:Price 0.00
+Selected:Price 595.00
+
+*******************************
+*******************************
+Test getOptionPrice()
+Option Price of ABS is 400.0
+Option Price of ABS is 400.0
+Option Price of ABS is 400.0
+Option Price of ABS is 400.0
+*******************************
+*******************************
+Test setOption()
+Focus Wagon ZTW
+Base Price :18445.00
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0.00
+Liquid Grey Clearcoat Metallic:Price 0.00
+Infra-Red Clearcoat:Price 0.00
+Grabber Green Clearcoat Metallic:Price 0.00
+Sangria Red Clearcoat Metallic:Price 0.00
+French Blue Clearcoat Metallic:Price 0.00
+Twilight Blue Clearcoat Metallic:Price 0.00
+CD Silver Clearcoat Metallic:Price 0.00
+Pitch Black Clearcoat:Price 0.00
+Cloud 9 White Clearcoat:Price 0.00
+
+Transmission:
+Automatic:Price 9999.00
+Test setOption():Price 815.00
+
+Brakes/Traction Control:
+Standard:Price 0.00
+ABS:Price 400.00
+ABS with Advance Trac:Price 1625.00
+
+Side Impact Airbags:
+None:Price 0.00
+Selected:Price 350.00
+
+Power Moonroof:
+None:Price 0.00
+Selected:Price 595.00
+
+*******************************
+*******************************
+Test deleteOption()
+Focus Wagon ZTW
+Base Price :18445.00
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0.00
+Liquid Grey Clearcoat Metallic:Price 0.00
+Infra-Red Clearcoat:Price 0.00
+Grabber Green Clearcoat Metallic:Price 0.00
+Sangria Red Clearcoat Metallic:Price 0.00
+French Blue Clearcoat Metallic:Price 0.00
+Twilight Blue Clearcoat Metallic:Price 0.00
+CD Silver Clearcoat Metallic:Price 0.00
+Pitch Black Clearcoat:Price 0.00
+Cloud 9 White Clearcoat:Price 0.00
+
+Transmission:
+Automatic:Price 9999.00
+Option Not Exist or Deleted
+
+Brakes/Traction Control:
+Option Not Exist or Deleted
+Option Not Exist or Deleted
+ABS with Advance Trac:Price 1625.00
+
+Side Impact Airbags:
+None:Price 0.00
+Selected:Price 350.00
+
+Power Moonroof:
+None:Price 0.00
+Selected:Price 595.00
+
+*******************************
+*******************************
+Color:
+updatename0:Price 0.00
+updatename1:Price 0.00
+updatename2:Price 0.00
+updatename3:Price 0.00
+Sangria Red Clearcoat Metallic:Price 4.00
+French Blue Clearcoat Metallic:Price 5.00
+Twilight Blue Clearcoat Metallic:Price 6.00
+CD Silver Clearcoat Metallic:Price 7.00
+Pitch Black Clearcoat:Price 0.00
+Cloud 9 White Clearcoat:Price 0.00
+
+Transmission:
+Automatic:Price 9999.00
+Option Not Exist or Deleted
+
+Brakes/Traction Control:
+Option Not Exist or Deleted
+Option Not Exist or Deleted
+ABS with Advance Trac:Price 1625.00
+
+Side Impact Airbags:
+None:Price 0.00
+Selected:Price 350.00
+
+Power Moonroof:
+None:Price 0.00
+Selected:Price 595.00
+
+*******************************
