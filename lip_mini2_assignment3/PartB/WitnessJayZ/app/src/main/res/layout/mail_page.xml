@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mail_background"
+    >
+
+
+
+    <LinearLayout android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="5dp">
+
+
+
+
+        <EditText android:id="@+id/mailpage_nickname"
+            android:layout_width="596dp"
+            android:layout_height="50dp"
+            android:imeOptions="actionNext" android:hint="@string/nickname"
+            android:inputType="text"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColorHint="#c15e5959">
+
+
+        </EditText>
+
+        <EditText android:id="@+id/mailpage_email"
+            android:layout_width="596dp"
+            android:layout_height="50dp"
+            android:imeOptions="actionNext" android:hint="@string/email"
+            android:inputType="text"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView"
+            android:maxLength="30"
+            android:textColorHint="#c15e5959">
+
+
+        </EditText>
+
+        <EditText android:id="@+id/mailpage_subject"
+            android:layout_width="596dp"
+            android:layout_height="50dp"
+            android:imeOptions="actionNext" android:hint="@string/subject"
+            android:inputType="text"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView"
+            android:maxLength="30"
+            android:textColorHint="#c15e5959">
+
+
+        </EditText>
+
+        <EditText android:id="@+id/mailpage_content"
+            android:layout_width="596dp"
+            android:layout_height="50dp"
+            android:imeOptions="actionNext" android:hint="@string/content"
+            android:inputType="text"
+            style="@style/ContactTextView"
+            android:maxLength="50"
+            android:textColorHint="#c15e5959">
+
+
+        </EditText>
+
+
+
+
+        <Button android:id="@+id/mailpage_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Submit"></Button>
+    </LinearLayout>
+
+</LinearLayout>

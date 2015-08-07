@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_bg">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mainpage_linearlayout"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:id="@+id/mainpage_upper_linearlayout"
+            android:weightSum="1"
+            android:background="#ff000000">
+
+            <TableRow android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0">
+
+
+                    <Button
+                        android:id="@+id/mainpage_music_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="90dp"
+                        android:text="@string/music"
+                        android:background="#ffbc0021"
+                        android:textColor="#ffffffff"
+                        android:textSize="25dp"
+                        android:clickable="false"
+                        android:textStyle="bold"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_column="1">
+
+
+                    <Button
+                        android:id="@+id/mainpage_video_button"
+                        android:layout_width="0dp"
+                        android:layout_height="90dp"
+                        android:text="@string/video"
+                        android:background="#ff002ebc"
+                        android:textColor="#ffffffff"
+                        android:textSize="21sp"
+                        android:clickable="false"
+                        android:textStyle="bold"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_column="1">
+
+
+                    <Button
+                        android:id="@+id/mainpage_pics_button"
+                        android:layout_width="0dp"
+                        android:layout_height="90dp"
+                        android:text="@string/pics"
+                        android:background="#ff42bc00"
+                        android:textColor="#ffffffff"
+                        android:textSize="25sp"
+                        android:clickable="false"
+                        android:textStyle="bold"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_column="1">
+
+
+                    <Button
+                        android:id="@+id/mainpage_mail_button"
+                        android:layout_width="0dp"
+                        android:layout_height="90dp"
+                        android:text="@string/maillist"
+                        android:background="#ffff00e2"
+                        android:textColor="#ffffffff"
+                        android:textSize="25sp"
+                        android:clickable="false"
+                        android:textStyle="bold"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+
+
+
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainpage_down_linearlayout"
+        android:weightSum="1">
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/mainpage_name_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/mainpage_name"
+                android:textColor="#ffff6b41"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_weight="3.42" />
+
+            </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/mainpage_birthday_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/mainpage_birthday"
+                android:textColor="#ffff6b41"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_weight="3.42" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/mainpage_like_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/mainpage_like"
+                android:textColor="#ffff6b41"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_weight="3.42" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/mainpage_dislike_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/mainpage_dislike"
+                android:textColor="#ffff6b41"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_weight="3.42" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/mainpage_mainpage_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/mainpage_mainpage"
+                android:textColor="#ffff6b41"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_weight="3.42" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/mainpage_twitter_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/mainpage_twitter"
+                android:textColor="#ffff6b41"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_weight="3.42" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/mainpage_facebook_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="@string/mainpage_facebook"
+                android:textColor="#ffff6b41"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_weight="3.42" />
+
+        </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

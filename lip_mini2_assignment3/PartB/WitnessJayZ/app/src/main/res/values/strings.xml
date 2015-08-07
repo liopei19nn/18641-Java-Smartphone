@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WitnessJayZ</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="music">Music</string>
+    <string name="video">Video</string>
+    <string name="pics">Pics</string>
+    <string name="maillist">Mail List</string>
+
+    <string name="mainpage_name">Jay-Z (Shawn Carter)</string>
+    <string name="mainpage_birthday">Birthday : 1969-12-04</string>
+    <string name="mainpage_like">Like : Music</string>
+    <string name="mainpage_dislike">Hate : Hypocrite</string>
+    <string name="mainpage_contact">Contact : (ROC)212-333-8000</string>
+    <string name="mainpage_mainpage"><a href="http://lifeandtimes.com/">Main Page</a></string>
+    <string name="mainpage_twitter"><a href="https://twitter.com/s_c_">Twitter</a></string>
+    <string name="mainpage_facebook"><a href="https://www.facebook.com/JayZ">Facebook</a></string>
+
+    <string name="Submit">Submit</string>
+    <string name="nickname">Nick Name</string>
+    <string name="email">Email Address</string>
+    <string name="subject">Subject</string>
+    <string name="content">Say To ROC</string>
+
+    <string name="errorButton">OK</string>
+    <string name="errorTitle">Error</string>
+    <string name="errorMessage_emptyinput">Input Cannot Be Empty</string>
+    <string name="errorMessage_wrongmailaddr">Input Cannot Be Empty</string>
+    <string name="musicpage_slogan">Try Some Jay-z On</string>
+    <string name="fragment_button_left">Video1</string>
+    <string name="fragment_button_right">Video2</string>
+
+
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ff968cff">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainpage_down_linearlayout"
+        android:weightSum="1">
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
+            <TextView
+                android:id="@+id/musicpage_slogan_Textview"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:text="@string/musicpage_slogan"
+                android:textColor="#ff0015ff"
+                android:layout_gravity="center"
+                android:layout_span="100"
+                android:textStyle="bold|italic"
+                android:textSize="70dp"
+                android:textAlignment="center"
+                android:layout_weight="3.42"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.04">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cover1_hardknowck"
+                android:layout_column="0" />
+
+            <Button android:id="@+id/start_btn1"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Start"
+                android:layout_column="1" />
+            <Button android:id="@+id/restart_btn1"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Restart"
+                android:layout_column="2" />
+            <Button android:id="@+id/pause_btn1"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Pause"
+                android:layout_column="3" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.13">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cover2_blueprint"
+                android:layout_column="0" />
+
+            <Button android:id="@+id/start_btn2"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Start"
+                android:layout_column="1" />
+            <Button android:id="@+id/restart_btn2"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Restart"
+                android:layout_column="2" />
+            <Button android:id="@+id/pause_btn2"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Pause"
+                android:layout_column="3" />
+
+
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.16">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cover3_blackalbum"
+                android:layout_column="0" />
+
+            <Button android:id="@+id/start_btn3"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Start"
+                android:layout_column="1" />
+            <Button android:id="@+id/restart_btn3"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Restart"
+                android:layout_column="2" />
+            <Button android:id="@+id/pause_btn3"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:text="Pause"
+                android:layout_column="3" />
+
+
+        </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

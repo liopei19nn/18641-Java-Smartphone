@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_weight="1"
+    android:background="#ff000000">
+    <LinearLayout android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="5dp">
+
+
+
+
+        <EditText android:id="@+id/addpage_IDEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/ID"
+            android:inputType="number"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView">
+
+
+        </EditText>
+
+        <EditText android:id="@+id/addpage_Q1EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/Q1"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView">
+
+
+        </EditText>
+
+
+        <EditText android:id="@+id/addpage_Q2EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/Q2"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView"></EditText>
+
+        <EditText android:id="@+id/addpage_Q3EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/Q3"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView"></EditText>
+
+        <EditText android:id="@+id/addpage_Q4EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/Q4"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView"></EditText>
+
+        <EditText android:id="@+id/addpage_Q5EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/Q5"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffffff"
+            style="@style/ContactTextView"></EditText>
+
+
+
+
+        <Button android:id="@+id/addpage_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Save"></Button>
+    </LinearLayout>
+</ScrollView>

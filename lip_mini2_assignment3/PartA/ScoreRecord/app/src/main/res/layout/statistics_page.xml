@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+
+    android:layout_height="wrap_content" android:layout_weight="1">
+
+    <TableLayout android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" android:layout_margin="5dp">
+
+
+        <TableRow android:id="@+id/statpage_high_TableRow"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/high_LabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/highscore"
+                android:layout_width="150dp"></TextView>
+            <TextView android:id="@+id/statpage_high_q1"
+                style="@style/ContactTextView"
+                android:layout_column="1"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_high_q2"
+                style="@style/ContactTextView"
+                android:layout_column="2"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_high_q3"
+                style="@style/ContactTextView"
+                android:layout_column="3"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_high_q4"
+                style="@style/ContactTextView"
+                android:layout_column="4"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_high_q5"
+                style="@style/ContactTextView"
+                android:layout_column="5"
+                android:layout_width="75dp"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/statpage_low_TableRow"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/low_LabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/lowscore"
+                android:layout_width="150dp"></TextView>
+            <TextView android:id="@+id/statpage_low_q1"
+                style="@style/ContactTextView"
+                android:layout_column="1"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_low_q2"
+                style="@style/ContactTextView"
+                android:layout_column="2"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_low_q3"
+                style="@style/ContactTextView"
+                android:layout_column="3"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_low_q4"
+                style="@style/ContactTextView"
+                android:layout_column="4"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_low_q5"
+                style="@style/ContactTextView"
+                android:layout_column="5"
+                android:layout_width="75dp"></TextView>
+        </TableRow>
+
+
+        <TableRow android:id="@+id/statpage_avg_TableRow"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/avg_LabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/averagescore"
+                android:layout_width="150dp"></TextView>
+            <TextView android:id="@+id/statpage_avg_q1"
+                style="@style/ContactTextView"
+                android:layout_column="1"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_avg_q2"
+                style="@style/ContactTextView"
+                android:layout_column="2"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_avg_q3"
+                style="@style/ContactTextView"
+                android:layout_column="3"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_avg_q4"
+                style="@style/ContactTextView"
+                android:layout_column="4"
+                android:layout_width="75dp"></TextView>
+            <TextView android:id="@+id/statpage_avg_q5"
+                style="@style/ContactTextView"
+                android:layout_column="5"
+                android:layout_width="75dp"></TextView>
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</ScrollView>

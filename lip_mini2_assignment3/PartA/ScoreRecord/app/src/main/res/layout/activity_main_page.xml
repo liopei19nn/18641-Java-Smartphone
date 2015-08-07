@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ff5b85dc">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainpage_linearlayout"
+        android:weightSum="1"
+        android:background="#ff5b85dc">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:id="@+id/mainpage_upper_linearlayout"
+            android:weightSum="1"
+            android:background="#ff5b85dc">
+
+            <TableRow android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0">
+
+
+                    <Button
+                        android:id="@+id/mainpage_add_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="90dp"
+                        android:text="@string/mainpage_addbutton"
+                        android:background="#FFBC4C00"
+                        android:textColor="#ffffffff"
+                        android:textSize="25dp"
+                        android:clickable="false"
+                        android:textStyle="bold"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_column="1">
+
+
+                    <Button
+                        android:id="@+id/mainpage_statistic_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="90dp"
+                        android:text="@string/mainpage_statisticbutton"
+                        android:background="#ffbc4c00"
+                        android:textColor="#ffffffff"
+                        android:textSize="21dp"
+                        android:clickable="false"
+                        android:textStyle="bold"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_column="1">
+
+
+                    <Button
+                        android:id="@+id/mainpage_deleteone_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="90dp"
+                        android:text="@string/mainpage_deleteone_button"
+                        android:background="#FFBC4C00"
+                        android:textColor="#ffffffff"
+                        android:textSize="25dp"
+                        android:clickable="false"
+                        android:textStyle="bold"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+
+
+
+
+
+                <FrameLayout
+                    android:id="@+id/fragment_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="596dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ff5b85dc">
+
+
+
+            <LinearLayout
+                android:layout_width="596dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="#ff4355bc">
+
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Student ID"
+                    android:id="@+id/mainpage_ID_TextView"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q1"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q3"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q4"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q5"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+
+
+            <ListView
+                android:id="@+id/mainpage_listQuizScore"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ff5b85dc">
+            </ListView>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

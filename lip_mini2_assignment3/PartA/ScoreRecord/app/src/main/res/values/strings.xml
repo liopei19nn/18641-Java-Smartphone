@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ScoreRecord</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainpage_addbutton">ADD</string>
+    <string name="mainpage_statisticbutton">Statistic</string>
+    <string name="mainpage_deleteone_button">Delete One</string>
+    <string name="mainpage_clear_button">Clear</string>
+
+
+    <string name="Q1">Q1</string>
+    <string name="Q2">Q2</string>
+    <string name="Q3">Q3</string>
+    <string name="Q4">Q4</string>
+    <string name="Q5">Q5</string>
+
+
+    <string name="Save">Save</string>
+    <string name="ID">ID</string>
+    <string name="highscore">High Score</string>
+    <string name="lowscore">Low Score</string>
+    <string name="averagescore">Average</string>
+    <string name="delete">Delete</string>
+
+    <string name="errorButton">OK</string>
+    <string name="errorTitle">Error</string>
+    <string name="errorMessage">Missing Information</string>
+
+
+</resources>
