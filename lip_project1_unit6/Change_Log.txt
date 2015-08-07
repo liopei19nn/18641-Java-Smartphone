@@ -1,0 +1,8 @@
+Project1 Unit2 : (-1) FileIO functions should not be made static
+	a. What were you asked to change?
+		Change the FileIO class (Util package) method from static to non-static.	b. How many points were taken off?
+		1 point was taken off.	c. What changes were made in what files?
+		All the static method are changed from static to non-static, and calls for this
+		method are using new object instance, not static way.	d. Show test cases for changes made (if applicable).
+		All the IO cases are applied with this change.	e. In your opinion, how many points should be added back?		I think I could get this 1 point back, because all methods are applied according to 
+		requirement now.
