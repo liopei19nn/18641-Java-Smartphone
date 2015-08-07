@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+
+    android:layout_height="wrap_content" android:layout_weight="1">
+
+    <TableLayout android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" android:layout_margin="5dp">
+        <TableRow android:id="@+id/NAMETableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/NAMELabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/hint_name"></TextView>
+            <TextView android:id="@+id/NAMETextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+
+        <TableRow android:id="@+id/PPTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/PPLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/PP"></TextView>
+            <TextView android:id="@+id/PPTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/MTTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/MTLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/MT"></TextView>
+            <TextView android:id="@+id/MTTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/IRTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/IRLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/IR"></TextView>
+            <TextView android:id="@+id/IRTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/TMPTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/TMPLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/TMP"></TextView>
+            <TextView android:id="@+id/TMPTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/TPTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/TPLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/TotalP"></TextView>
+            <TextView android:id="@+id/TPTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/FPDTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/FPDLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/DATE"></TextView>
+            <TextView android:id="@+id/FPDTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/PODTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/PODLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/POD"></TextView>
+            <TextView android:id="@+id/PODTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/LOGTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/LOGLabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="@string/LOGTIME"></TextView>
+            <TextView android:id="@+id/LOGTextView"
+                style="@style/ContactTextView"></TextView>
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</ScrollView>

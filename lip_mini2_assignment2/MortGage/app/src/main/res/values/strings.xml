@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MortGage</string>
+    <string name="AddLogItem">Hello world!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="PP">Purchase Price ($) </string>
+    <string name="DP">Down Payment (%)</string>
+    <string name="MT">Mortgage Term (yrs)</string>
+    <string name="IR">Interest Rate (%)</string>
+    <string name="PT">Property Tax ($/yr)</string>
+    <string name="PI">Property Insurance (%/yr)</string>
+    <string name="PMI">PMI (%)</string>
+    <string name="ZIP">ZIP Code</string>
+    <string name="DATE">First Payment Date</string>
+    <string name="Save">Save</string>
+    <string name="start">Start</string>
+    <string name="myID">lip@andrew.cmu.edu</string>
+    <string name="back">Back</string>
+    <string name="TMP">Totally Monthly Payment ($)</string>
+    <string name="TotalP">Total Payment ($)</string>
+    <string name="POD">Pay-off Date</string>
+    <string name="LOGTIME">Log Time</string>
+
+    <string name="menuitem_add">Add Mortgage</string>
+    <string name="hint_name">Name</string>
+
+
+    <string name="errorButton">OK</string>
+    <string name="errorTitle">Error</string>
+    <string name="errorMessage">Missing Information</string>
+
+</resources>

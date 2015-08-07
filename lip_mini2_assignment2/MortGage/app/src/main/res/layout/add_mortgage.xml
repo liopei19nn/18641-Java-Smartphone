@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_weight="1">
+    <LinearLayout android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="5dp">
+
+
+        <EditText android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/hint_name"
+            android:inputType="textPersonName|textCapWords"></EditText>
+
+
+        <EditText android:id="@+id/PPEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/PP"
+            android:inputType="numberDecimal"></EditText>
+
+
+        <EditText android:id="@+id/MTEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/MT"
+            android:inputType="numberDecimal"></EditText>
+
+        <EditText android:id="@+id/IREditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/IR"
+            android:inputType="numberDecimal"></EditText>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="225dp">
+
+            <TextView android:id="@+id/DATETextView"
+                android:layout_width="wrap_content"
+                android:layout_height="163dp"
+                android:text="@string/DATE" android:textColor="#ff656565"
+                android:gravity="right" android:paddingRight="5dp"
+                android:layout_marginRight="5dp"></TextView>
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FPdatePicker"
+                android:layout_gravity="center_vertical"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+
+        </LinearLayout>
+
+
+        <Button android:id="@+id/saveMortgageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Save"></Button>
+    </LinearLayout>
+</ScrollView>
