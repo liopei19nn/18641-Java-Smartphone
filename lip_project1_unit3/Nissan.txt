@@ -1,0 +1,11 @@
+NISSAN
+GTR
+99999
+Color
+Fort Knox Gold,0;Liquid Grey,0;Infra-Red,0;Grabber Green,0;Sangria Red,0;French Blue,0
+Transmission
+Automatic,0;Standard,-815
+Brakes/Traction Control
+Standard,0;ABS,400;ABS with Advance Trac,1625
+Side Impact Airbags
+None,0;Selected,350

@@ -1,0 +1,37 @@
+1. Asynchronous situation output for update option set name : 
+
+Thread2 : Change Option Set Name From Transmission To Op1
+Thread1 : Error -- 6 OptionSetNotFound
+Thread2 : Change Option Set Name From Op1 To Op2
+Thread2 : Change Option Set Name From Op2 To Op3
+Thread2 : Change Option Set Name From Op3 To Op4
+Thread1 : Error -- 6 OptionSetNotFound
+Thread1 : Error -- 6 OptionSetNotFound
+Thread1 : Error -- 6 OptionSetNotFound
+Thread2 : Change Option Set Name From Op4 To Op5
+Thread1 : Error -- 6 OptionSetNotFound
+Thread2 : Change Option Set Name From Op5 To Op6
+Thread2 : Change Option Set Name From Op6 To Op7
+Thread2 : Change Option Set Name From Op7 To Transmission
+Thread1 : Error -- 6 OptionSetNotFound
+Thread1 : Error -- 6 OptionSetNotFound
+Thread1 : Error -- 6 OptionSetNotFound
+
+2. Synchronized situation output for update option set name : 
+
+Thread1 : Change Option Set Name From Transmission To Op1
+Thread1 : Change Option Set Name From Op1 To Op2
+Thread1 : Change Option Set Name From Op2 To Op3
+Thread1 : Change Option Set Name From Op3 To Op4
+Thread1 : Change Option Set Name From Op4 To Op5
+Thread1 : Change Option Set Name From Op5 To Op6
+Thread1 : Change Option Set Name From Op6 To Op7
+Thread1 : Change Option Set Name From Op7 To Transmission
+Thread2 : Change Option Set Name From Transmission To Op1
+Thread2 : Change Option Set Name From Op1 To Op2
+Thread2 : Change Option Set Name From Op2 To Op3
+Thread2 : Change Option Set Name From Op3 To Op4
+Thread2 : Change Option Set Name From Op4 To Op5
+Thread2 : Change Option Set Name From Op5 To Op6
+Thread2 : Change Option Set Name From Op6 To Op7
+Thread2 : Change Option Set Name From Op7 To Transmission

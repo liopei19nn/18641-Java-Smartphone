@@ -1,0 +1,44 @@
+1. Asynchronous situation output for update option price : 
+
+Thread 2 Transmission Automatic Price: 1111.0
+Thread 1 Transmission Automatic Price: 1111.0
+Thread 1 Transmission Automatic Price: 2222.0
+Thread 1 Transmission Automatic Price: 3333.0
+Thread 2 Transmission Automatic Price: 2222.0
+Thread 1 Transmission Automatic Price: 4444.0
+Thread 2 Transmission Automatic Price: 3333.0
+Thread 1 Transmission Automatic Price: 5555.0
+Thread 2 Transmission Automatic Price: 4444.0
+Thread 1 Transmission Automatic Price: 6666.0
+Thread 2 Transmission Automatic Price: 5555.0
+Thread 1 Transmission Automatic Price: 7777.0
+Thread 1 Transmission Automatic Price: 8888.0
+Thread 2 Transmission Automatic Price: 6666.0
+Thread 1 Transmission Automatic Price: 9999.0
+Thread 2 Transmission Automatic Price: 7777.0
+Thread 2 Transmission Automatic Price: 8888.0
+Thread 2 Transmission Automatic Price: 9999.0
+
+
+2. Synchronized situation output for update option price : 
+
+Thread 1 Transmission Automatic Price: 1111.0
+Thread 1 Transmission Automatic Price: 2222.0
+Thread 1 Transmission Automatic Price: 3333.0
+Thread 1 Transmission Automatic Price: 4444.0
+Thread 1 Transmission Automatic Price: 5555.0
+Thread 1 Transmission Automatic Price: 6666.0
+Thread 1 Transmission Automatic Price: 7777.0
+Thread 1 Transmission Automatic Price: 8888.0
+Thread 1 Transmission Automatic Price: 9999.0
+Thread 2 Transmission Automatic Price: 1111.0
+Thread 2 Transmission Automatic Price: 2222.0
+Thread 2 Transmission Automatic Price: 3333.0
+Thread 2 Transmission Automatic Price: 4444.0
+Thread 2 Transmission Automatic Price: 5555.0
+Thread 2 Transmission Automatic Price: 6666.0
+Thread 2 Transmission Automatic Price: 7777.0
+Thread 2 Transmission Automatic Price: 8888.0
+Thread 2 Transmission Automatic Price: 9999.0
+
+
