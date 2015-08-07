@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mainpage_linearlayout"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:id="@+id/mainpage_upper_linearlayout"
+            android:weightSum="1"
+            android:background="#ff000000">
+
+            <TableRow android:layout_width="fill_parent"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_span="2"></LinearLayout>
+
+                <Button
+                    android:id="@+id/mainpage_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="94dp"
+                    android:text="@string/fragment_button"
+                    android:background="#ffbc0800"
+                    android:textColor="#ffffffff"
+                    android:textSize="25sp"
+                    android:clickable="false"
+                    android:textStyle="bold"
+                    android:layout_weight="1.25"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp" />
+
+
+            </TableRow>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainpage_down_linearlayout"
+        android:weightSum="1"
+        android:background="#ff000000">
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:weightSum="1">
+            <TextView android:id="@+id/longitute_LabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="Longitude"
+                android:layout_width="wrap_content"
+                android:textSize="25dp"
+                android:layout_column="0"
+                android:layout_height="wrap_content"></TextView>
+            <TextView android:id="@+id/longtitude_TextView"
+                style="@style/ContactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                android:text="Longitude"/>
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:weightSum="1">
+            <TextView android:id="@+id/latitude_LabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="Latitude"
+                android:layout_width="wrap_content"
+                android:textSize="25dp"
+                android:layout_column="0"
+                android:layout_height="wrap_content"></TextView>
+            <TextView android:id="@+id/latitute_TextView"
+                style="@style/ContactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="Latitude"/>
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:weightSum="1">
+            <TextView android:id="@+id/altitude_LabelTextView"
+                style="@style/ContactLabelTextView"
+                android:text="Altitude"
+                android:layout_width="wrap_content"
+                android:textSize="25dp"
+                android:layout_column="0"
+                android:layout_height="wrap_content"></TextView>
+            <TextView android:id="@+id/altitude_TextView"
+                style="@style/ContactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:textSize="20dp"
+                android:text="Altitude"/>
+
+        </TableRow>
+
+    </LinearLayout>
+
+</LinearLayout>
