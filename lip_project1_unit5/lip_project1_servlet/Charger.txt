@@ -1,0 +1,13 @@
+Dodge
+Charger
+27995
+Color
+Gold,0;Red,0;Green,0;Traditional Yello,100
+Transmission
+Automatic,0;Standard,-815
+ABS/Traction Control
+Standard,0;ABS,400;ABS with Advance Trac,1625
+Side Impact Airbags
+None,0;Selected,350
+Power Moonroof
+None,0;Selected,500;Convertible,2000
