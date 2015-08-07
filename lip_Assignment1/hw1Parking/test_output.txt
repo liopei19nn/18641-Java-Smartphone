@@ -1,0 +1,95 @@
+*********************
+Simulation1 : parked vehicle is within the parking time purchased
+Parked Car parking for 50 Minutes
+Purchased parking for 60 Minutes
+*********************
+Legal Parking.
+
+*********************
+Simulation2 : parked vehicle is just in the parking time purchased
+Parked Car parking for 60 Minutes
+Purchased parking for 60 Minutes
+*********************
+Legal Parking.
+
+*********************
+Simulation3 : parked vehicle is out of the parking time purchased
+Parked Car parking for 70 Minutes
+Purchased parking for 60 Minutes
+*********************
+Illegal Parking Fine Ticket
+
+Illegal Parking Car Infomation:
+Make: FORD
+Model: FOCUS
+Color: BLACK
+License Number: 15215
+
+Illegal Parking Fine : $25.0
+
+Ticket Issued Officer:
+Name : Master Yoda
+Badge Number : 00003
+
+
+*********************
+Simulation4 : Ticketing under 1 hour
+Parked Car parking for 75 Minutes
+Purchased parking for 60 Minutes
+*********************
+Illegal Parking Fine Ticket
+
+Illegal Parking Car Infomation:
+Make: MAZDA
+Model: 3
+Color: YELLOW
+License Number: 15216
+
+Illegal Parking Fine : $25.0
+
+Ticket Issued Officer:
+Name : Luke Skywalker
+Badge Number : 00001
+
+
+*********************
+Simulation5 : Ticketing over 1 hour
+Parked Car parking for 121 Minutes
+Purchased parking for 60 Minutes
+*********************
+Illegal Parking Fine Ticket
+
+Illegal Parking Car Infomation:
+Make: FORD
+Model: FIESTA
+Color: RED
+License Number: 15217
+
+Illegal Parking Fine : $35.0
+
+Ticket Issued Officer:
+Name : Luke Skywalker
+Badge Number : 00001
+
+
+*********************
+Simulation6 : Ticketing just 1 hour
+Parked Car parking for 120 Minutes
+Purchased parking for 60 Minutes
+*********************
+Illegal Parking Fine Ticket
+
+Illegal Parking Car Infomation:
+Make: FORD
+Model: FIESTA
+Color: RED
+License Number: 15217
+
+Illegal Parking Fine : $25.0
+
+Ticket Issued Officer:
+Name : Luke Skywalker
+Badge Number : 00001
+
+
+

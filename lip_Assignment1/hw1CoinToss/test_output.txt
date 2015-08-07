@@ -1,0 +1,37 @@
+Simulation1:Toss 20 Times
+Initially Facing Up : tails
+Toss 20 Times
+Current Facing Up Side : tails
+Current Facing Up Side : heads
+Current Facing Up Side : heads
+Current Facing Up Side : heads
+Current Facing Up Side : tails
+Current Facing Up Side : heads
+Current Facing Up Side : tails
+Current Facing Up Side : heads
+Current Facing Up Side : tails
+Current Facing Up Side : tails
+Current Facing Up Side : heads
+Current Facing Up Side : heads
+Current Facing Up Side : heads
+Current Facing Up Side : heads
+Current Facing Up Side : tails
+Current Facing Up Side : tails
+Current Facing Up Side : tails
+Current Facing Up Side : tails
+Current Facing Up Side : tails
+Current Facing Up Side : heads
+Times of Tossing Heads : 10
+Times of Tossing Tails : 10
+
+
+Simulation2:Toss -1 Times
+Initially Facing Up : heads
+Toss -1 Times
+Illegal toss times
+
+Simulation3:Toss 0 Times
+Initially Facing Up : tails
+Toss 0 Times
+No toss at all
+
